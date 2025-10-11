@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "question": "Ist ein Posaunenchor nur etwas für bestimmte Altersgruppen?",
@@ -15,4 +16,23 @@
         "question": "Wie oft muss ich proben und wie viel Zeit sollte ich zum Üben einplanen?",
         "answer": "In der Regel proben wir einmal die Woche für etwa 1,5 Stunden. Für Anfänger ist es gut, zusätzlich täglich 10-20 Minuten zu üben, um schnell Fortschritte zu machen."
     }
+=======
+[
+    {
+        "question": "Ist ein Posaunenchor nur etwas für bestimmte Altersgruppen?",
+        "answer": "Nein! Posaunenchöre sind generationenübergreifend und wir freuen uns über Mitglieder jeden Alters - von Kindern bis Senioren. Musik verbindet und egal wie alt du bist, du kannst mitmachen und Spaß haben."
+    },
+    {
+        "question": "Brauche ich Notenkenntnisse, um mitspielen zu können?",
+        "answer": "Keine Sorge, du musst nicht sofort perfekt Noten lesen können! Viele starten ohne Vorkenntnisse und im Chor lernst du das ganz entspannt Schritt für Schritt. Wichtig ist vor allem die Freude am Musizieren – den Rest bringen wir dir bei."
+    },
+    {
+        "question": "Brauche ich ein eigenes Instrument oder kann ich eins ausleihen?",
+        "answer": "Nein, du brauchst kein eigenes Instrument! Der Chor stellt Instrumente zum Ausleihen zur Verfügung – das ist besonders praktisch, wenn du dir noch nicht sicher bist, ob und welches Instrument am besten zu dir passt. So kannst du ganz entspannt ausprobieren, ohne gleich investieren zu müssen."
+    },
+    {
+        "question": "Wie oft muss ich proben und wie viel Zeit sollte ich zum Üben einplanen?",
+        "answer": "In der Regel proben wir einmal die Woche für etwa 1,5 Stunden. Für Anfänger ist es gut, zusätzlich täglich 10-20 Minuten zu üben, um schnell Fortschritte zu machen."
+    }
+>>>>>>> 375c903ce2f9c4cf4539981eb6b258b2dbeae98b
 ]
