@@ -154,9 +154,6 @@ function changeSlide(id, direction) {
   img.alt = current.alt;
 }
 
-
-
-
 // Interest faq
 
 fetch("/Interesse/faq.json")
@@ -218,5 +215,4 @@ window.onload = function () {
   showAllHistory();
   showAllFAQs();
 }
-=======
->>>>>>> 375c903ce2f9c4cf4539981eb6b258b2dbeae98b
+
