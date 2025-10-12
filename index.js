@@ -156,7 +156,7 @@ function changeSlide(id, direction) {
 
 // Interest faq
 
-fetch("/Interesse/faq.json")
+fetch("Interesse/faq.json")
   .then(response => {
     if (!response.ok) throw new Error("FAQ konnte nicht geladen werden.");
     return response.json();
