@@ -1,23 +1,23 @@
 
 @font-face {
     font-family: AveriaSerifLibre;
-    src: url(/fonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf);
+    src: url("fonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf");
 }
 
 @font-face {
     font-family: Kalam;
-    src: url(/fonts/Kalam/Kalam-Regular.ttf);
+    src: url("fonts/Kalam/Kalam-Regular.ttf");
 }
 
 @font-face {
     font-family: Signika;
-    src: url(/fonts/Signika/static/Signika-Light.ttf);
+    src: url("fonts/Signika/static/Signika-Light.ttf");
     
 }
 
 @font-face {
     font-family: SignikaMedium;
-    src: url(/fonts/Signika/static/Signika-Medium.ttf);
+    src: url("fonts/Signika/static/Signika-Medium.ttf");
 }
 
 html{
