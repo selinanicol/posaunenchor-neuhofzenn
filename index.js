@@ -120,7 +120,7 @@ function showHistory(item, index) {
 
   return `
     <div class="timeline-container ${side}">
-      <img src="../images/white.circle.png" alt="circle" class="circle">
+      <img src="images/white.circle.png" alt="circle" class="circle">
       <div class="timeline-textbox">
         <h2>${item.title}</h2>
         <small>${item.time}</small>
