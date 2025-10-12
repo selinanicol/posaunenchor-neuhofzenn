@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 [
   {
     "image": "images/Plakat.Jubiläum.png",
@@ -36,43 +36,9 @@
     "title": "",
     "description":""
   }
-=======
-[
-  {
-    "image": "images/Plakat.Jubiläum.png",
-    "date": "",
-    "title": "",
-    "description": ""
-  },
-  {
-    "image": "images/Plakat.Adventsblasen.png",
-    "date": "",
-    "title": "",
-    "description":""
-  },
-  {
-    "image": "",
-    "date": "",
-    "title": "",
-    "description":""
-  },
-  {
-    "image": "",
-    "date": "",
-    "title": "",
-    "description":""
-  },
-    {
-    "image": "",
-    "date": "",
-    "title": "",
-    "description":""
-  },
-    {
-    "image": "",
+
+  "image": "",
     "date": "",
     "title": "",
     "description":""
   }
->>>>>>> 375c903ce2f9c4cf4539981eb6b258b2dbeae98b
-]
