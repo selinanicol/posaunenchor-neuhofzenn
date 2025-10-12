@@ -29,7 +29,7 @@ const scrollButton = document.getElementById("scrollUp");
 
 // Veranstaltung
 
-fetch("/Termine/veranstaltungen.json")
+fetch("Termine/veranstaltungen.json")
     .then(response => {
       if (!response.ok) throw new Error("Fehler beim Laden der Veranstaltungsdaten");
       return response.json();
