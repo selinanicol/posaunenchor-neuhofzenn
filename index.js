@@ -1,141 +1,125 @@
-
-//sidebar
-function showSidebar(){
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex'
+// Sidebar anzeigen/verbergen
+function showSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "flex";
 }
 
-function hideSidebar(){
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'none'
+function hideSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "none";
 }
 
-// scroll button
-
+// Scroll-To-Top Button Sichtbarkeit & Logik
 const scrollButton = document.getElementById("scrollUp");
 
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        scrollButton.classList.add("visible");
-      } else {
-        scrollButton.classList.remove("visible");
-      }
-    });
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    scrollButton.classList.add("visible");
+  } else {
+    scrollButton.classList.remove("visible");
+  }
+});
 
-    scrollButton.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
+scrollButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
+// Globaler Daten-Cache für Chronik-Karussells
+let historyData = [];
+const imageIndices = {};
 
-// Veranstaltung
+// Einmaliges Laden aller dynamischen Inhalte nach DOM-Ready (Behebt doppelten window.onload-Bug)
+document.addEventListener("DOMContentLoaded", () => {
+  loadVeranstaltungen();
+  loadHistory();
+  loadFAQs();
+});
 
-fetch("Termine/veranstaltungen.json")
-    .then(response => {
-      if (!response.ok) throw new Error("Fehler beim Laden der Veranstaltungsdaten");
+// Veranstaltungen über JSON laden
+function loadVeranstaltungen() {
+  fetch("Termine/veranstaltungen.json")
+    .then((response) => {
+      if (!response.ok)
+        throw new Error("Fehler beim Laden der Veranstaltungsdaten");
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       const container = document.getElementById("veranstaltungen-container");
       container.innerHTML = "";
-
-      data.forEach(event => {
+      data.forEach((event) => {
         container.innerHTML += `
-          <div class="box">
-            <img src="${event.image}" >
-            <p>${event.date}</p>
-            <h1 class="headline">${event.title}</h1>
-            <p>${event.description}</p>
-          </div>
-        `;
+                    <div class="box">
+                        <img src="${event.image}" alt="${event.title}" loading="lazy">
+                        <p class="event-date"><strong>${event.date}</strong></p>
+                        <h3 class="headline">${event.title}</h3>
+                        <p>${event.description}</p>
+                    </div>
+                `;
       });
     })
-    .catch(error => {
-      console.error("Veranstaltungsdaten konnten nicht geladen werden:", error);
-      const container = document.getElementById("veranstaltungen-container");
-      container.innerHTML = "<p>Veranstaltungen konnten nicht geladen werden.</p>";
+    .catch((error) => {
+      console.error(error);
+      document.getElementById("veranstaltungen-container").innerHTML =
+        "<p>Veranstaltungen konnten derzeit nicht geladen werden.</p>";
     });
-
-// history timeline
-
-let historyData = [];
-const imageIndices = {}; 
-
-fetch('Geschichte/history.json')
-  .then(response => {
-    if (!response.ok) throw new Error("Fehler beim Laden der history.json");
-    return response.json();
-  })
-  .then(data => {
-    historyData = data;
-    showAllHistory();
-  })
-  .catch(error => {
-    console.error("Fehler beim Laden der Chronikdaten:", error);
-    const container = document.getElementById('timeline');
-    container.textContent = "Daten konnten nicht geladen werden.";
-  });
-
-function showAllHistory() {
-  const container = document.getElementById("timeline");
-  container.innerHTML = "";
-
-  historyData.forEach((item, index) => {
-    container.innerHTML += showHistory(item, index);
-  });
 }
 
-function showHistory(item, index) {
-  const side = index % 2 === 0 ? "left-container" : "right-container";
-  const arrowClass = index % 2 === 0 ? "left-container-arrow" : "right-container-arrow";
+// Chronik als Blog-Layout laden
+function loadHistory() {
+  fetch("Geschichte/history.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("Fehler beim Laden der Chronik");
+      return response.json();
+    })
+    .then((data) => {
+      historyData = data;
+      const container = document.getElementById("timeline");
+      container.innerHTML = "";
 
-  const carouselId = `carousel-${index}`;
+      historyData.forEach((item, index) => {
+        const carouselId = `carousel-${index}`;
 
-  let imageHTML = "";
-  if (item.images && item.images.length > 0) {
-    const hasMultiple = item.images.length > 1;
+        let imageHTML = "";
+        if (item.images && item.images.length > 0) {
+          const hasMultiple = item.images.length > 1;
+          imageHTML = `
+                        <div class="carousel" id="${carouselId}">
+                            ${hasMultiple ? `<button class="carousel-btn prev" onclick="changeSlide('${carouselId}', -1)">&#10094;</button>` : ""}
+                            <img class="blog-image" src="${item.images[0].src}" alt="${item.images[0].alt || "Chronik Bild"}" loading="lazy">
+                            ${hasMultiple ? `<button class="carousel-btn next" onclick="changeSlide('${carouselId}', 1)">&#10095;</button>` : ""}
+                        </div>
+                    `;
+        }
 
-    imageHTML = `
-      <div class="carousel" id="${carouselId}">
-        ${hasMultiple ? `<button class="carousel-btn prev" onclick="changeSlide('${carouselId}', -1)">&#10094;</button>` : ""}
-        <img class="carousel-image" src="${item.images[0].src}" alt="${item.images[0].alt}">
-        ${hasMultiple ? `<button class="carousel-btn next" onclick="changeSlide('${carouselId}', 1)">&#10095;</button>` : ""}
-      </div>
-    `;
-  }
-
-  const linkHTML = item.link
-    ? `<a href="${item.link}" target="_blank" class="info-link">weitere Informationen</a>`
-    : '';
-
-  const reportHTML = item.report
-    ? `<p class="report">${item.report}
-         <p class="reporterName">${item.reporterName}</p>
-       </p>`
-    : '';
-
-  const organisationLinkHTML = item.organisationLink
-    ? `<p>Organisiert durch</p>
-       <a href="${item.organisationLink}" target="_blank" class="organisationLink">Verband evangelischer Posaunenchöre in Bayern e.V.</a>`
-    : '';
-
-  return `
-    <div class="timeline-container ${side}">
-      <img src="images/white.circle.png" alt="circle" class="circle">
-      <div class="timeline-textbox">
-        <h2>${item.title}</h2>
-        <small>${item.time}</small>
-        <p>${item.infoText}</p>
-        ${reportHTML}
-        ${organisationLinkHTML}
-        ${linkHTML}
-        ${imageHTML}
-        <span class="${arrowClass}"></span>
-      </div>
-    </div>
-  `;
+        // Generiert moderne Blog-Cards statt veralteter Timeline-Container
+        container.innerHTML += `
+                    <article class="blog-card">
+                        ${imageHTML}
+                        <div class="blog-content">
+                            <span class="blog-date">${item.time}</span>
+                            <h2 class="blog-title">${item.title}</h2>
+                            <p class="blog-text">${item.infoText}</p>
+                            
+                            ${item.report ? `<blockquote class="blog-report">"${item.report}"</blockquote>` : ""}
+                            ${item.reporterName ? `<p class="blog-reporter-name">— ${item.reporterName}</p>` : ""}
+                            
+                            <div class="blog-footer-links">
+                                ${item.organisationLink ? `<a href="${item.organisationLink}" target="_blank" class="org-link">Verband evang. Posaunenchöre in Bayern e.V.</a>` : ""}
+                                ${item.link ? `<a href="${item.link}" target="_blank" class="more-link">Weiterlesen →</a>` : ""}
+                            </div>
+                        </div>
+                    </article>
+                `;
+      });
+    })
+    .catch((error) => {
+      console.error(error);
+      document.getElementById("timeline").textContent =
+        "Chronikdaten konnten nicht geladen werden.";
+    });
 }
 
-// Carousel 
+// Carousel Switch Logik
 function changeSlide(id, direction) {
   const container = document.getElementById(id);
   const img = container.querySelector("img");
@@ -151,68 +135,52 @@ function changeSlide(id, direction) {
 
   const current = images[imageIndices[id]];
   img.src = current.src;
-  img.alt = current.alt;
+  img.alt = current.alt || "Chronik Bild";
 }
 
-// Interest faq
-
-fetch("Interesse/faq.json")
-  .then(response => {
-    if (!response.ok) throw new Error("FAQ konnte nicht geladen werden.");
-    return response.json();
-  })
-  .then(data => {
-    const container = document.getElementById("faq-container");
-    container.innerHTML = "";
-    data.forEach(item => {
-      container.innerHTML += showFAQ(item);
-    });
-  })
-  .catch(error => {
-    console.error("Fehler beim Laden der FAQs:", error);
-    const container = document.getElementById("faq-container");
-    container.innerHTML = "FAQ konnte nicht geladen werden.";
-  });
-
-function showFAQ(faq) {
-    return `
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <span class="question-text">${faq.question}</span>
-                <svg class="arrow" viewBox="0 0 24 24">
-                    <polyline points="6 9 12 15 18 9" fill="none" stroke="black" stroke-width="2"/>
-                </svg>
-            </div>
-            <div class="faq-answer" style="display: none;">
-                ${faq.answer}
-            </div>
-        </div>
-    `;
-}
-
-function showAllFAQs() {
-    const container = document.getElementById("faq-container");
-    container.innerHTML = ""; 
-
-    faq.forEach(item => {
-        container.innerHTML += showFAQ(item);
+// FAQ über JSON laden
+function loadFAQs() {
+  fetch("Interesse/faq.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("FAQ konnte nicht geladen werden.");
+      return response.json();
+    })
+    .then((data) => {
+      const container = document.getElementById("faq-container");
+      container.innerHTML = "";
+      data.forEach((item) => {
+        container.innerHTML += `
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer(this)">
+                            <span class="question-text">${item.question}</span>
+                            <svg class="arrow" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9" fill="none" stroke="black" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="faq-answer" style="display: none;">
+                            ${item.answer}
+                        </div>
+                    </div>
+                `;
+      });
+    })
+    .catch((error) => {
+      console.error(error);
+      document.getElementById("faq-container").innerHTML =
+        "FAQ-Daten aktuell nicht verfügbar.";
     });
 }
 
-// Zum Ein-/Ausklappen
+// FAQ-Akkordeon Toggle mit sanfter Pfeil-Animation
 function toggleAnswer(element) {
-    const answerDiv = element.nextElementSibling;
-    answerDiv.style.display = (answerDiv.style.display === "block") ? "none" : "block";
+  const answerDiv = element.nextElementSibling;
+  const arrow = element.querySelector(".arrow");
+
+  if (answerDiv.style.display === "block") {
+    answerDiv.style.display = "none";
+    arrow.style.transform = "rotate(0deg)";
+  } else {
+    answerDiv.style.display = "block";
+    arrow.style.transform = "rotate(180deg)";
+  }
 }
-
-window.onload = function () {
-    showAllHistory?.(); 
-    showAllFAQs();
-};
-
-
-window.onload = function () {
-  showAllHistory();
-  showAllFAQs();
-}
-

@@ -1,135 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Posaunenchor Neuhof an der Zenn</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="images/posaunenchor.logo_website.5.png" type="image/png">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-</head>
-<body>
-  <!--scroll button-->
-      <div class="slowup" id="scrollUp">
-        <span class="slowup-arrow"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="30px" fill="black"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"></svg></span>
-      </div>
-    
-  <header> 
-      <nav>
-        <!--sidebar and navbar-->
-
-          <ul class="sidebar">      
-              <li onclick=hideSidebar()><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-              <li><a href="#veranstaltungen" class="menu-link"> Veranstaltungen</a></li>
-              <li><a href="#geschichte" class="menu-link"> Geschichte</a></li>
-              <li><a href="#interesse" class="menu-link"> Interesse</a></li>
-              <li><a href="#kontakt" class="menu-link"> Kontakt</a></li>
-          </ul>
-          <ul>
-              <li><a href="index.html" class="logo">
-                  <img src="images/posaunenchor.logo_website.5.png" alt="logo" class="logo"></img>
-              </a></li>
-              <li><a href="#veranstaltungen" class="hideOnMobile">Veranstaltungen</a></li>
-              <li><a href="#geschichte" class="hideOnMobile"> Geschichte</a></li>
-              <li><a href="#interesse" class="hideOnMobile"> Interesse</a></li>
-              <li><a href="#kontakt" class="hideOnMobile"> Kontakt</a></li>
-              <li onclick=showSidebar()><a href="javascript:void(0)" class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-          </ul>   
-  </header>
-
-  <main>
-
-    <div class="hero">
-        <div class="title">Posaunenchor </div>
-            <div class="under-title">Neuhof an der Zenn</div>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      href="images/posaunenchor.logo_website.5.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="slowup" id="scrollUp">
+      <span class="slowup-arrow">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="30px"
+          fill="black"
+        >
+          <path
+            d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"
+          />
+        </svg>
+      </span>
     </div>
-      
-      <div class="content-block">
-          <p>Seit unserer Gründung im Herbst 1964 sind wir als begeisterte Musiker eine feste Größe in unserer Gemeinde. 
-          Mit derzeit 22 Mitgliedern üben wir einmal wöchentlich gemeinsam, um die Vielfalt der Blasmusik zu leben. 
-          Unser Repertoire reicht von klassischen bis hin zu modernen Stücken, die wir bei besonderen Anlässen in der Kirche und bei weiteren Veranstaltungen zum Besten geben.
 
-          Dabei ist uns nicht nur die musikalische Vielfalt wichtig,
-          sondern auch der Gemeinschaftsaspekt – gemeinsam musizieren und Freude an der Musik haben, das ist unser Ziel!</p>
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="javascript:void(0)"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="35px"
+                viewBox="0 -960 960 960"
+                width="35px"
+                fill="#e3e3e3"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#veranstaltungen"
+              class="menu-link"
+              onclick="hideSidebar()"
+            >
+              Veranstaltungen</a
+            >
+          </li>
+          <li>
+            <a href="#geschichte" class="menu-link" onclick="hideSidebar()">
+              Geschichte</a
+            >
+          </li>
+          <li>
+            <a href="#interesse" class="menu-link" onclick="hideSidebar()">
+              Interesse</a
+            >
+          </li>
+          <li>
+            <a href="#kontakt" class="menu-link" onclick="hideSidebar()">
+              Kontakt</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="index.html" class="logo">
+              <img
+                src="images/posaunenchor.logo_website.5.png"
+                alt="logo"
+                class="logo-img"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#veranstaltungen" class="hideOnMobile">Veranstaltungen</a>
+          </li>
+          <li><a href="#geschichte" class="hideOnMobile">Geschichte</a></li>
+          <li><a href="#interesse" class="hideOnMobile">Interesse</a></li>
+          <li><a href="#kontakt" class="hideOnMobile">Kontakt</a></li>
+          <li onclick="showSidebar()">
+            <a href="javascript:void(0)" class="menu-button"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="35px"
+                viewBox="0 -960 960 960"
+                width="35px"
+                fill="#e3e3e3"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="title">Posaunenchor</div>
+        <div class="under-title">Neuhof an der Zenn</div>
+      </div>
+
+      <div class="content-block">
+        <p>
+          Seit unserer Gründung im Herbst 1964 sind wir als begeisterte Musiker
+          eine feste Größe in unserer Gemeinde. Mit derzeit 22 Mitgliedern üben
+          wir einmal wöchentlich gemeinsam, um die Vielfalt der Blasmusik zu
+          leben. Unser Repertoire reicht von klassischen bis hin zu modernen
+          Stücken, die wir bei besonderen Anlässen in der Kirche und bei
+          weiteren Veranstaltungen zum Besten geben.
+        </p>
+        <br />
+        <p>
+          Dabei ist uns nicht nur die musikalische Vielfalt wichtig, sondern
+          auch der Gemeinschaftsaspekt – gemeinsam musizieren und Freude an der
+          Musik haben, das ist unser Ziel!
+        </p>
       </div>
 
       <section class="spacer"></section>
 
       <div class="content-block">
-          <h1>Was machen wir?</h1>
-          <h1 class="headline">Musik verbindet – und genau das leben wir im Posaunenchor!</h1>
+        <h1>Was machen wir?</h1>
+        <h2 class="headline">
+          Musik verbindet – und genau das leben wir im Posaunenchor!
+        </h2>
 
-          <p>  Neben unserem jährlichen Konzert oder dem besonderen Posaunenchor-Gottesdienst begleiten wir regelmäßig die Gottesdienste musikalisch.
-                Wenn Gemeindemitglieder einen runden Geburtstag ab 75 Jahren feiern, bringen wir ihnen ein kleines Ständchen vorbei – eine Tradition, die 
-                uns genauso viel Freude macht wie den Jubilar*innen.</p>
-          <br>
-          <p>    Am 2. Advent zieht es uns in alle Ortsteile der Gemeinde: Mit unseren Standkonzerten verbreiten
-                wir Weihnachtsstimmung und oft wird auch begeistert mitgesungen.</p>
-          <br>    
-          <p>Auch außerhalb der Gottesdienste sind wir aktiv: Ausflüge, Sommerfreizeiten für die Jugend, gemeinsame 
-              Probenwochenenden oder Fortbildungen mit anderen Chören gehören genauso dazu wie gesellige Grillabende oder ein Feierabendbier nach der Probe.</p>
-          <br>    
-          <p>Wir unterstützen andere Chöre, gestalten auch mal gemeinsame Gottesdienste und sind bei vielen Festen in der 
-              Gemeinde mit dabei.</p>
+        <p>
+          Neben unserem jährlichen Konzert oder dem besonderen
+          Posaunenchor-Gottesdienst begleiten wir regelmäßig die Gottesdienste
+          musikalisch. Wenn Gemeindemitglieder einen runden Geburtstag ab 75
+          Jahren feiern, bringen wir ihnen ein kleines Ständchen vorbei – eine
+          Tradition, die uns genauso viel Freude macht wie den Jubilar*innen.
+        </p>
+        <br />
+        <p>
+          Am 2. Advent zieht es uns in alle Ortsteile der Gemeinde: Mit unseren
+          Standkonzerten verbreiten wir Weihnachtsstimmung und oft wird auch
+          begeistert mitgesungen.
+        </p>
+        <br />
+        <p>
+          Auch außerhalb der Gottesdienste sind wir aktiv: Ausflüge,
+          Sommerfreizeiten für die Jugend, gemeinsame Probenwochenenden oder
+          Fortbildungen mit anderen Chören gehören genauso dazu wie gesellige
+          Grillabende oder ein Feierabendbier nach der Probe.
+        </p>
+        <br />
+        <p>
+          Wir unterstützen andere Chöre, gestalten auch mal gemeinsame
+          Gottesdienste und sind bei vielen Festen in der Gemeinde mit dabei.
+        </p>
       </div>
 
       <section class="spacer" id="veranstaltungen"></section>
 
-      <!--veranstaltungen-->
-      <div class="content-block" > 
-      <h1>Veranstaltungen</h1><br>
+      <div class="content-block">
+        <h1>Veranstaltungen</h1>
         <div class="scroll-container" id="veranstaltungen-container"></div>
       </div>
 
-      <section class="spacer" id="geschichte"></section> 
+      <section class="spacer" id="geschichte"></section>
 
-      <!--Geschichte-->
-      <div class="content-block-history" > 
+      <div class="content-block-history">
         <h1>Geschichte</h1>
         <div id="timeline" class="timeline"></div>
       </div>
 
-      <section class="spacer" id="interesse"></section> 
-      
-      <!--Interesse-->
-      <div class="content-block" >
+      <section class="spacer" id="interesse"></section>
+
+      <div class="content-block">
         <h1>Interesse?</h1>
-        <div class="interest-container">Du hast Lust, gemeinsam Musik zu machen und suchst eine musikalische Gemeinschaft? Dann schau doch mal bei unserem Posaunenchor vorbei – wir freuen uns immer über neue Gesichter, ganz egal ob mit oder ohne Vorkenntnisse!</div>
+        <div class="interest-container">
+          Du hast Lust, gemeinsam Musik zu machen und suchst eine musikalische
+          Gemeinschaft? Dann schau doch mal bei unserem Posaunenchor vorbei –
+          wir freuen uns immer über neue Gesichter, ganz egal ob mit oder ohne
+          Vorkenntnisse!
+        </div>
         <div id="faq-container" class="faq-container"></div>
       </div>
 
-      <section class="spacer" id="kontakt"></section> 
+      <section class="spacer" id="kontakt"></section>
 
-        <div class="content-block">
-            <h1>Kontakt</h1>
-            <p>Bei Fragen oder Interesse wenden Sie sich bitte an</p><br>
-            <p>Chorobman Gerd Stigler, Vockenroth (Tel.: 09107 462)</p>
-            <p>Chorleiter Thomas Nicol, Industriestraße 27 in Neuhof (Tel.: 09107 924374)</p>
-            <p>Herbert und Erika Zink, Schafhof 2 in Neuhof (Tel.: 09107 9279 330)</p>
-            <p>Selina Nicol (Email: selinanicol456@gmail.com)</p>
+      <div class="content-block">
+        <h1>Kontakt</h1>
+        <p class="contact-intro">
+          Haben Sie Fragen oder Interesse? Wenden Sie sich gerne an unsere
+          Ansprechpartner:
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-role">Chorobman</div>
+            <h3 class="contact-name">Gerd Stigler</h3>
+            <p class="contact-location">Vockenroth</p>
+            <div class="contact-actions">
+              <a href="tel:09107462" class="contact-btn phone-btn">
+                <span class="material-icons">phone</span> 09107 462
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">Chorleiter</div>
+            <h3 class="contact-name">Thomas Nicol</h3>
+            <p class="contact-location">Industriestraße 27, Neuhof</p>
+            <div class="contact-actions">
+              <a href="tel:09107924374" class="contact-btn phone-btn">
+                <span class="material-icons">phone</span> 09107 924374
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">Unterstützung / Organisation</div>
+            <h3 class="contact-name">Herbert & Erika Zink</h3>
+            <p class="contact-location">Schafhof 2, Neuhof</p>
+            <div class="contact-actions">
+              <a href="tel:091079279330" class="contact-btn phone-btn">
+                <span class="material-icons">phone</span> 09107 9279 330
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">Jugend & Anfragen</div>
+            <h3 class="contact-name">Selina Nicol</h3>
+            <p class="contact-location">Per E-Mail erreichbar</p>
+            <div class="contact-actions">
+              <a
+                href="mailto:selinanicol456@gmail.com"
+                class="contact-btn email-btn"
+              >
+                <span class="material-icons">email</span> E-Mail schreiben
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <section class="spacer"></section> 
-          
-    </div>
+      <section class="spacer"></section>
+    </main>
 
-  </main>
-
-  <footer>
-    <div class="content-block">
+    <footer>
+      <div class="content-block">
         <div class="footer-content">
-            <p>&copy; 2025 Posaunenchor Neuhof an der Zenn</p>
-            
-            <a href="impressum.html">Impressums</a> |
+          <p>&copy; 2026 Posaunenchor Neuhof an der Zenn</p>
+          <div class="footer-links">
+            <a href="impressum.html">Impressum</a> |
             <a href="datenschutz.html">Datenschutz</a> |
             <a href="#kontakt">Kontakt</a>
+          </div>
         </div>
-    </div>
-  </footer>
-    
-</body>
+      </div>
+    </footer>
 
-<script src="index.js"></script>
-
+    <script src="index.js"></script>
+  </body>
 </html>
