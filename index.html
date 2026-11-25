@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Posaunenchor Neuhof an der Zenn</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="brief-popup.css" />
     <link
       rel="icon"
       href="images/posaunenchor.logo_website.5.png"
@@ -14,6 +15,11 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      defer
+    ></script>
+    <script src="brief-popup.js" defer></script>
   </head>
   <body>
     <div class="slowup" id="scrollUp">
@@ -268,6 +274,60 @@
       </div>
     </footer>
 
+    <!--
+         EINMALIGES WEIHNACHTS-STANDKONZERT BRIEF-POPUP
+       -->
+    <div id="letter-overlay" class="letter-overlay" aria-hidden="true">
+      <button
+        id="letter-close"
+        class="letter-close-btn"
+        aria-label="Schließen"
+        title="Schließen"
+      >
+        &times;
+      </button>
+
+      <div class="letter-stage">
+        <div class="envelope-wrapper" id="envelope-wrapper">
+          <div class="envelope-back"></div>
+
+          <div class="flyer-card flyer-left" data-flyer="1">
+            <img
+              src="images/Plakat.Adventsblasen2026.png"
+              alt="Weihnachts-Standkonzerte Termine Teil 1"
+            />
+          </div>
+
+          <div class="flyer-card flyer-right" data-flyer="2">
+            <img
+              src="images/Plakat.Adventsblasen3.2026.png"
+              alt="Weihnachts-Standkonzerte Termine Teil 2"
+            />
+          </div>
+
+          <div class="envelope-front">
+            <div class="envelope-badge">
+              <img
+                src="images/posaunenchor.logo_website.5.png"
+                alt="Logo Posaunenchor Neuhof"
+              />
+              <div class="envelope-badge-text">
+                <span>Posaunenchor Neuhof a. d. Zenn</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="envelope-flap" id="envelope-flap">
+            <div class="wax-seal">
+              <img
+                src="images/posaunenchor.logo_website.5.png"
+                alt="Siegel Posaunenchor"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

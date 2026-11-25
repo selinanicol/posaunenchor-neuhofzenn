@@ -9,7 +9,6 @@ function hideSidebar() {
   sidebar.style.display = "none";
 }
 
-// Scroll-To-Top Button Sichtbarkeit & Logik
 const scrollButton = document.getElementById("scrollUp");
 
 window.addEventListener("scroll", () => {

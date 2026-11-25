@@ -11,59 +11,59 @@
     "images": [
       {
         "src": "images/Ausflug Hintertux1.png",
-        "alt": "Ausflug Hintertux1"
+        "alt": "Ausflug nach Hintertux 1968 – Bild 1"
       },
       {
         "src": "images/Ausflug Hintertux2.png",
-        "alt": "Ausflug Hintertux2"
+        "alt": "Ausflug nach Hintertux 1968 – Bild 2"
       }
     ]
   },
   {
-    "title": "10 Jubiläum",
+    "title": "10. Jubiläum",
     "time": "1974",
-    "infoText": "Am  21.  und  22. September, feiert der Neuhöfer Posaunenchor sein 10-jähriges Jubiläum. Neben dem Jubiläumschor wirken auch Posaunenchöre aus benachbarten Orten mit. Am Samstagabend gab es ein Konzert, und am Sonntag wurde der Festgottesdienst gefeiert, der mit einem Standkonzert auf dem Marktplatz seinen Abschluss fand.",
+    "infoText": "Am 21. und 22. September feierte der Neuhöfer Posaunenchor sein 10-jähriges Jubiläum. Neben dem Jubiläumschor wirkten auch Posaunenchöre aus benachbarten Orten mit. Am Samstagabend gab es ein Konzert, und am Sonntag wurde der Festgottesdienst gefeiert, der mit einem Standkonzert auf dem Marktplatz seinen Abschluss fand.",
     "images": [
       {
         "src": "images/10Jubiläum.png",
-        "alt": "10Jubiläum"
+        "alt": "10-jähriges Jubiläum 1974"
       }
     ]
   },
   {
-    "title": "weitere Ausflüge",
-    "time": "",
-    "infoText": "Es folgten viele weitere Ausflüge unter, anderem am 30/31. August 1975 nach Berchtesgarden oder im Jahr 1979 nach Bayreuth.",
+    "title": "Weitere Ausflüge",
+    "time": "1975 – 1979",
+    "infoText": "Es folgten viele weitere Ausflüge, unter anderem am 30./31. August 1975 nach Berchtesgaden oder im Jahr 1979 nach Bayreuth.",
     "images": [
       {
         "src": "images/Ausflug Berchtesgarden.png",
-        "alt": "Berchtesgarden"
+        "alt": "Ausflug nach Berchtesgaden 1975 – Bild 1"
       },
       {
         "src": "images/Ausflug Berchtesgarden2.png",
-        "alt": "Berchtesgarden2"
+        "alt": "Ausflug nach Berchtesgaden 1975 – Bild 2"
       }
     ]
   },
   {
-    "title": "20 Jubiläum",
+    "title": "20. Jubiläum",
     "time": "Frühjahr 1984",
     "infoText": "Wie schon beim 10-jährigen Jubiläum feierte der Posaunenchor auch diesmal mit viel Musik – und die Gemeinde war beim Konzert wieder mit dabei.",
     "images": [
       {
         "src": "images/20Jubiläum.png",
-        "alt": "20Jubiläum"
+        "alt": "20-jähriges Jubiläum 1984"
       }
     ]
   },
   {
-    "title": "40 Jubiläum",
+    "title": "40. Jubiläum",
     "time": "2005",
     "infoText": "Am 17. April fand ein Jubiläumsgottesdienst gemeinsam mit dem benachbarten Posaunenchor aus Trautskirchen statt. Im Anschluss gab es ein Standkonzert auf dem Marktplatz, gefolgt von einem gemütlichen Beisammensein mit Brunch und einer Bilderausstellung.",
     "images": [
       {
         "src": "images/Jubiläum mit Trautskirchen.png",
-        "alt": "Jubiläum mit Trautskirchen"
+        "alt": "40-jähriges Jubiläum mit Trautskirchen 2005"
       }
     ]
   },
@@ -74,22 +74,22 @@
     "images": [
       {
         "src": "images/Marktplatzfest2012.png",
-        "alt": "Marktplatzfest2012"
+        "alt": "Eröffnung des Marktplatzfestes 2012"
       }
     ]
   },
   {
-    "title": "50 Jubiläum",
+    "title": "50. Jubiläum",
     "time": "19. April 2015",
-    "infoText": "Das 50-jährige Jubiläum startete am Sonntagmorgen mit einem festlichen Gottesdienst in der St. Thomas-Kirche. Wir freuten uns über viele Ehrengäste, ehemalige Bläserinnen und Bläser sowie unsere früheren Dirigenten. Einige von uns wurden für 10, 25, 40 oder sogar 50 Jahre Chortreue geehrt – ein schöner Moment! Anschließend ging’s zum gemeinsamen Mittagessen in die Schlossscheune. Am Nachmittag kamen die Nachbarchöre aus Markt Erlbach, Trautskirchen, Linden und Bläser aus dem Bezirk Fürth dazu – gemeinsam gaben wir ein großes Standkonzert. Die Begeisterung war spürbar, und es hat richtig Spaß gemacht, in so einer großen Gruppe Musik zu machen.",
+    "infoText": "Das 50-jährige Jubiläum startete am Sonntagmorgen mit einem festlichen Gottesdienst in der St.-Thomas-Kirche. Wir freuten uns über viele Ehrengäste, ehemalige Bläserinnen und Bläser sowie unsere früheren Dirigenten. Einige von uns wurden für 10, 25, 40 oder sogar 50 Jahre Chortreue geehrt – ein schöner Moment! Anschließend ging’s zum gemeinsamen Mittagessen in die Schlossscheune. Am Nachmittag kamen die Nachbarchöre aus Markt Erlbach, Trautskirchen, Linden und Bläser aus dem Bezirk Fürth dazu – gemeinsam gaben wir ein großes Standkonzert. Die Begeisterung war spürbar, und es hat richtig Spaß gemacht, in so einer großen Gruppe Musik zu machen.",
     "images": [
       {
         "src": "images/50Festgottesdienst.png",
-        "alt": "50Festgottesdienst"
+        "alt": "Festgottesdienst zum 50. Jubiläum"
       },
       {
         "src": "images/50Standkonzert.png",
-        "alt": "50Standkonzert"
+        "alt": "Großes Standkonzert zum 50. Jubiläum"
       }
     ]
   },
@@ -100,45 +100,45 @@
     "images": [
       {
         "src": "images/KirchweihOberfeldbrecht.png",
-        "alt": "KirchweihOberfeldbrecht"
+        "alt": "Gottesdienst im Freien zur Kirchweih Oberfeldbrecht 2020"
       }
     ]
   },
   {
     "title": "Landesposaunentag Bayern",
-    "time": "08-10. Juli 2022",
-    "infoText": "3 000 Bläser musizieren gemeinsam und feiern gleichzeitig das 101-jährige Bestehen des bayrischen Posaunenchorverbandes. Auch unser ältestes Chormitglied hat sich auf den Weg gemacht, um diese besondere Atmosphäre noch einmal mitzuerleben. Unsere Musik hörte man nicht nur in der Nürnberger Innenstadt, sondern auch in Seniorenheimen und Krankenhäusern in und um Nürnberg.",
+    "time": "08.–10. Juli 2022",
+    "infoText": "3.000 Bläser musizieren gemeinsam und feiern gleichzeitig das 101-jährige Bestehen des bayerischen Posaunenchorverbandes. Auch unser ältestes Chormitglied hat sich auf den Weg gemacht, um diese besondere Atmosphäre noch einmal mitzuerleben. Unsere Musik hörte man nicht nur in der Nürnberger Innenstadt, sondern auch in Seniorenheimen und Krankenhäusern in und um Nürnberg.",
     "link": "https://www.epid.de/was-los-ist/events/item/1444-lptbayern",
     "images": [
       {
         "src": "images/Landesposaunentag.jpg",
-        "alt": "Landesposaunentag"
+        "alt": "Landesposaunentag Bayern in Nürnberg 2022"
       }
     ]
   },
   {
     "title": "38. Kirchentag in Nürnberg",
     "time": "2023",
-    "infoText": "Vom 07–11. Juni 2023 hatten wir die Möglichkeit den Kirchentag mitzugestalten. So haben wir bei der Eröffnungsveranstaltung und auch bei dem Abschlussgottesdienst mitgewirkt im großen Chor. Zwischen den beiden Veranstaltungen waren so viele Attraktionen geboten – mit und ohne Instrument. Ein Highlight war auf jeden Fall die Bläserserenade am Samstagabend. Gemeinsam mit European Tuba Power erlebten wir einen ganz besonderen Abend, der uns positiv in Erinnerung blieb. Nicht nur, weil teilweise „untypische“ Musik wie „Highway to hell“ und „Wake me up“ dargeboten wurden.",
+    "infoText": "Vom 07.–11. Juni 2023 hatten wir die Möglichkeit, den Kirchentag mitzugestalten. So haben wir bei der Eröffnungsveranstaltung und auch beim Abschlussgottesdienst im großen Chor mitgewirkt. Zwischen den beiden Veranstaltungen waren so viele Attraktionen geboten – mit und ohne Instrument. Ein Highlight war auf jeden Fall die Bläserserenade am Samstagabend. Gemeinsam mit European Tuba Power erlebten wir einen ganz besonderen Abend, der uns positiv in Erinnerung blieb. Nicht nur, weil teilweise „untypische“ Musik wie „Highway to Hell“ und „Wake Me Up“ dargeboten wurde.",
     "link": "https://www.kirchentag.de/service/aktuelles/aufgehtsnuernberg-1",
     "images": [
       {
         "src": "images/Kirchetag Nürnberg.jpg",
-        "alt": "Kirchentag Nürnberg"
+        "alt": "38. Deutscher Evangelischer Kirchentag in Nürnberg 2023"
       }
     ]
   },
   {
-    "title": "Bayrischer Kirchentag Hesselberg",
+    "title": "Bayerischer Kirchentag Hesselberg",
     "time": "Pfingstmontag",
-    "infoText": "Jedes Jahr unterstüzten viele freiwillige aus Posaunenchören den bayrischen Kirchentag musikalisch. Für viele ist es ein wichtiger Bestandteil der Feiertage geworden.",
-    "report": "Von klein auf begleitet mich der Hesselberg. Anfangs natürlich eher auf dem Spielplatz. Jetzt mittendrin unter den Bläsern. Der Hesselberg ist für mich ein Ort, wo ich zur Ruhe kommen kann und darf. Einen Tag, den Problemen entfliehen und gestärkt heimfahren. In dem Bewusstsein nächstes Jahr bin ich wieder dabei.",
+    "infoText": "Jedes Jahr unterstützen viele Freiwillige aus Posaunenchören den Bayerischen Kirchentag musikalisch. Für viele ist es ein wichtiger Bestandteil der Feiertage geworden.",
+    "report": "Von klein auf begleitet mich der Hesselberg. Anfangs natürlich eher auf dem Spielplatz, jetzt mittendrin unter den Bläsern. Der Hesselberg ist für mich ein Ort, wo ich zur Ruhe kommen kann und darf – einen Tag den Problemen entfliehen und gestärkt heimfahren, in dem Bewusstsein: Nächstes Jahr bin ich wieder dabei.",
     "reporterName": "Bericht von Andrea Stigler",
     "link": "https://bayerischer-kirchentag.de/kirchentag/",
     "images": [
       {
         "src": "images/Hesselberg.jpg",
-        "alt": "Hesselberg"
+        "alt": "Bayerischer Kirchentag auf dem Hesselberg"
       }
     ]
   },
@@ -152,25 +152,25 @@
     "images": [
       {
         "src": "images/Freizeit Schweden.jpg",
-        "alt": "Freizeit Schweden"
+        "alt": "Jugendfreizeit in Schweden 2023 – Bild 1"
       },
       {
         "src": "images/Freizeit Schweden2.jpg",
-        "alt": "Freizeit Schweden2"
+        "alt": "Jugendfreizeit in Schweden 2023 – Bild 2"
       }
     ]
   },
   {
     "title": "Deutscher Evangelischer Posaunentag Hamburg",
     "time": "2024",
-    "infoText": "Das größte Ehrenamtliche Bläsertreffen der Welt fand am 03-05. Mai 2024 in Hamburg statt und war ein spektakel welches wir uns nicht entgehen konnten.",
-    "report": "Das Wochenende wird uns allen, die dabei waren, in Erinnerung bleiben. Ein Wochenende dreht sich alles um Musik und Gemeinschaft. Dies zeigte sich schon bei unserer Anreise mit dem ICE wo, wir uns anderen Bläsern anschließen durften und ein spontanes Standkonzert im ICE gespielt haben. Unfaßbar, aber wahr. ca. 17 000 Menschen musizieren gemeinsam und genießen die Gemeinschaft.",
+    "infoText": "Das größte ehrenamtliche Bläsertreffen der Welt fand am 03.–05. Mai 2024 in Hamburg statt und war ein Spektakel, welches wir uns nicht entgehen lassen konnten.",
+    "report": "Das Wochenende wird uns allen, die dabei waren, in Erinnerung bleiben. Ein Wochenende dreht sich alles um Musik und Gemeinschaft. Dies zeigte sich schon bei unserer Anreise mit dem ICE, wo wir uns anderen Bläsern anschließen durften und ein spontanes Standkonzert im ICE gespielt haben. Unfassbar, aber wahr: Ca. 17.000 Menschen musizieren gemeinsam und genießen die Gemeinschaft.",
     "reporterName": "Bericht von Andrea Stigler",
     "link": "https://www.dept2024.de/",
     "images": [
       {
         "src": "images/Landesposaunentag Hamburg.jpg",
-        "alt": "Landesposaunentag Hamburg"
+        "alt": "Deutscher Evangelischer Posaunentag Hamburg 2024"
       }
     ]
   },
@@ -182,152 +182,170 @@
     "images": [
       {
         "src": "images/Freizeit Toskana1.jpg",
-        "alt": "Freizeit Toskana1"
+        "alt": "Jugendfreizeit in der Toskana 2024 – Bild 1"
       },
       {
         "src": "images/Freizeit Toskana 2.jpg",
-        "alt": "Freizeit Toskana2"
+        "alt": "Jugendfreizeit in der Toskana 2024 – Bild 2"
       }
     ]
   },
   {
-    "title": "Freizeit in Asissi",
+    "title": "Freizeit in Assisi",
     "time": "2024",
-    "infoText": "Eine Freizeit für Familien, Paare und Singels und trotzdem haben sie eines gemeinsam - die Liebe zur Musik.",
-    "report": "Im Sommer 2024 bin ich nach Assisi gefahren. Neben unzähligen gekauften Mitbringsel für Freunde und Familie nehme ich unzählige Erinnerungen mit. Die Gastfreundschaft der Nonnen, bei denen wir gewohnt haben. Die berührenden Morgenandachten, die uns Franz von Assisi näher brachten. Aber auch das gemeinsame Musizieren unter der Leitung von Landesposaunenwart Dieter Wendel. Am Nachmittag blieb genug Zeit für Ausflüge, die in Gesellschaft natürlich doppelt soviel Spaß gemacht haben.",
+    "infoText": "Eine Freizeit für Familien, Paare und Singles – und trotzdem haben sie eines gemeinsam: die Liebe zur Musik.",
+    "report": "Im Sommer 2024 bin ich nach Assisi gefahren. Neben unzähligen gekauften Mitbringseln für Freunde und Familie nehme ich unzählige Erinnerungen mit: die Gastfreundschaft der Nonnen, bei denen wir gewohnt haben, die berührenden Morgenandachten, die uns Franz von Assisi näherbrachten, aber auch das gemeinsame Musizieren unter der Leitung von Landesposaunenwart Dieter Wendel. Am Nachmittag blieb genug Zeit für Ausflüge, die in Gesellschaft natürlich doppelt so viel Spaß gemacht haben.",
     "reporterName": "Bericht von Andrea Stigler",
     "organisationLink": "https://www.vep-bayern.de/",
     "images": [
       {
         "src": "images/Ausflug Assisi.jpg",
-        "alt": "Freizeit Asissi"
+        "alt": "Bläserfreizeit in Assisi 2024"
       }
     ]
   },
   {
     "title": "Bezirksposaunentag in Cadolzburg",
-    "time": "16-18. Mai 2025",
-    "infoText": "Ein Wochenende der Begegnungen und Verbundenheit. Vom 16. – 18.05.2025 feierten wir anlässlich des 100-jährigen Bestehens unseres Posaunenchorbezirks (Fürth) einen Bezirksposaunentag.  Freitagabend durften wir zwei wunderbare Konzerte ,von Blechquadrat und Gloria Brass, genießen.  Am Samstag erklang unsere Musik in Cadolzburg  und fand ihren gemeinsamen Abschluss bei dem Abendsegen auf dem Marktplatz. Den festlichen Abschuss bildete der Gottesdienst am Sonntag, in dem auch unser langjähriger Bezirksobmann von der evanglischen Kirche in Bayern geehrt wurde. Dieser berührende  Moment wird uns lange begleiten.",
+    "time": "16.–18. Mai 2025",
+    "infoText": "Ein Wochenende der Begegnungen und Verbundenheit. Vom 16.–18.05.2025 feierten wir anlässlich des 100-jährigen Bestehens unseres Posaunenchorbezirks (Fürth) einen Bezirksposaunentag. Freitagabend durften wir zwei wunderbare Konzerte von Blechquadrat und Gloria Brass genießen. Am Samstag erklang unsere Musik in Cadolzburg und fand ihren gemeinsamen Abschluss beim Abendsegen auf dem Marktplatz. Den festlichen Abschluss bildete der Gottesdienst am Sonntag, in dem auch unser langjähriger Bezirksobmann von der Evangelischen Kirche in Bayern geehrt wurde. Dieser berührende Moment wird uns lange begleiten.",
     "link": "https://posaunenchoere-bezirk-fuerth.de/",
     "images": [
       {
         "src": "images/Bezirksposaunentag1.jpg",
-        "alt": "Bezirksposaunentag1"
+        "alt": "Bezirksposaunentag in Cadolzburg 2025 – Bild 1"
       },
       {
         "src": "images/Bezirksposaunentag2.jpg",
-        "alt": "Bezirksposaunentag2"
+        "alt": "Bezirksposaunentag in Cadolzburg 2025 – Bild 2"
       },
       {
         "src": "images/Bezirksposaunentag3.jpg",
-        "alt": "Bezirksposaunentag3"
+        "alt": "Bezirksposaunentag in Cadolzburg 2025 – Bild 3"
       }
     ]
   },
   {
     "title": "Christi Himmelfahrt",
     "time": "2025",
-    "infoText": "Heimatverein und Posaunenchor Trautskirchen feiern ihr Jubiläum – gemeinsam. In der herrlichen Atmosphäre des Schloßhofes gestalteten wir den Gottesdienst mit den Posaunenchören der Region Süd mit. „What a wonderful world“ hieß es im anschließenden Standkonzert, in dem wir den Moment genießen konnten.",
+    "infoText": "Heimatverein und Posaunenchor Trautskirchen feiern ihr Jubiläum – gemeinsam. In der herrlichen Atmosphäre des Schlosshofes gestalteten wir den Gottesdienst mit den Posaunenchören der Region Süd mit. „What a Wonderful World“ hieß es im anschließenden Standkonzert, in dem wir den Moment genießen konnten.",
     "images": [
       {
         "src": "images/Christi Himmelfahrt 1.jpg",
-        "alt": "Christi Himmelfahrt1"
+        "alt": "Gottesdienst zu Christi Himmelfahrt in Trautskirchen – Bild 1"
       },
       {
         "src": "images/Christi Himmelfahrt 2.jpg",
-        "alt": "Christi Himmelfahrt2"
+        "alt": "Standkonzert zu Christi Himmelfahrt – Bild 2"
       },
       {
         "src": "images/Christi Himmelfahrt 3.jpg",
-        "alt": "Christi Himmelfahrt3"
+        "alt": "Bläser zu Christi Himmelfahrt – Bild 3"
       }
     ]
   },
   {
     "title": "Konzert Con Spirito",
     "time": "29. Juni 2025",
-    "infoText": "Anlässlich unseres 60-jährigen Bestehens kam der Stifungschor \"Con Spirito\" zu uns. Dieser trifft sich 10 mal im Jahr und studiert Jahr für Jahr ein neues Konzertprogramm ein. Mit dabei: Bläser aus ganz Bayern.\nUnter dem Motto \"Um Himmels willen\" wurde ein eindrucksvolles Konzert dargeboten, in welchen 3 unserer Mitglieder selbst mitgespielt haben.",
+    "infoText": "Anlässlich unseres 60-jährigen Bestehens kam der Stiftungschor „Con Spirito“ zu uns. Dieser trifft sich 10-mal im Jahr und studiert Jahr für Jahr ein neues Konzertprogramm ein. Mit dabei: Bläser aus ganz Bayern. Unter dem Motto „Um Himmels willen“ wurde ein eindrucksvolles Konzert dargeboten, bei dem 3 unserer Mitglieder selbst mitgespielt haben.",
     "link": "https://www.stiftung-conspirito.de/",
     "images": [
       {
         "src": "images/Con spirito 1.jpg",
-        "alt": "Con spirito 1"
+        "alt": "Konzert des Stiftungschors Con Spirito – Bild 1"
       },
       {
         "src": "images/Con spirito 2.jpg",
-        "alt": "Con spirito 2"
+        "alt": "Konzert des Stiftungschors Con Spirito – Bild 2"
       },
       {
         "src": "images/Con spirito 3.jpg",
-        "alt": "Con spirito 3"
+        "alt": "Konzert des Stiftungschors Con Spirito – Bild 3"
       }
     ]
   },
   {
     "title": "Jugendfreizeit Schweden",
     "time": "2025",
-    "infoText": "",
-    "report": "",
-    "reporterName": "Bericht von ",
+    "infoText": "Auch im Sommer 2025 ging es für die Bläserjugend wieder nach Schweden – voller Musik, Gemeinschaft und unvergesslicher Erlebnisse.",
     "organisationLink": "https://www.vep-bayern.de/",
     "images": [
       {
         "src": "images/Schweden 2025.jpg",
-        "alt": "Schweden 2025"
+        "alt": "Jugendfreizeit Schweden 2025"
       }
     ]
   },
   {
-    "title": "60 Jubiläum",
+    "title": "60. Jubiläum",
     "time": "19. Oktober 2025",
-    "infoText": "\"Um Himmels Willen\" - 60 Jahre zu Ehre Gottes. Unter diesem Motto haben wir zu unserem Bläsergottesdienst eingeladen. Gemeinsam feierten wir \"60 Jahre Posaunenchor Neuhof a. d. Zenn\". Gemeinschaft ist auch das, was einen Poaunenchor ausmacht. Jung und Alt spielen gemeinsam und können voneinander lernen und profitieren. Zusammen mit unserer Aufgabe, als Posaunenchor, Gott zu loben war dies das Kernthema des Gottesdienstes. Diesen feierlichen Rahmen haben wir genutzt, um langjährige Bläser zu ehren. So wurden insgesamt 7 Bläserinnen und BLäser für Engagement vom Posaunenchorverband Bezirk Fürth ausgezeichnet.",
+    "infoText": "„Um Himmels Willen“ – 60 Jahre zur Ehre Gottes. Unter diesem Motto haben wir zu unserem Bläsergottesdienst eingeladen. Gemeinsam feierten wir „60 Jahre Posaunenchor Neuhof a. d. Zenn“. Gemeinschaft ist auch das, was einen Posaunenchor ausmacht: Jung und Alt spielen gemeinsam und können voneinander lernen und profitieren. Zusammen mit unserer Aufgabe als Posaunenchor, Gott zu loben, war dies das Kernthema des Gottesdienstes. Diesen feierlichen Rahmen haben wir genutzt, um langjährige Bläser zu ehren. So wurden insgesamt 7 Bläserinnen und Bläser für ihr Engagement vom Posaunenchorverband Bezirk Fürth ausgezeichnet.",
     "images": [
       {
         "src": "images/Jubiläum60.jpg",
-        "alt": "60 Jubiläum"
+        "alt": "Festgottesdienst zum 60. Jubiläum des Posaunenchors Neuhof"
       }
     ]
   },
   {
     "title": "Puschendorf 2026",
     "time": "07. Februar 2026",
-    "infoText": "Jedes Jahr, um diese Zeit, treffen wir uns mit Bläsern aus dem Bezirk Fürth. Im großen Chor erlernten wir Stücke aus dem neuen Bläserheft und kramten aus älteren Bläserhefte fast vergessene Stücke oder sogenannte Dauerbrenner heraus. Dieses Jahr wurde zum ersten Mal ein Chorleiterlehrgang angeboten, welcher mit insgesamt 7 Bläser eine gute Gruppengröße ergab,  um erste Einblicke in das Dirigieren zu bekommen. Bereits im Winter des Vorjahres kam das \"neue\" Bläserheft 2026 heraus. Jede Menge neue Lieder. Alles mit dabei. Vortragsstücke, Choralvorspiele und Choralbearbeitungen. Gemeinsam mit Kerstin Dickoff lernten wir eine Vielzahl der Stücke kennen. Wir hoffen euch bereiten die Stücke genauso viel Freude, wenn wir sie im Gottesdienst oder anderen Auftritten zum besten geben."
+    "infoText": "Jedes Jahr um diese Zeit treffen wir uns mit Bläsern aus dem Bezirk Fürth. Im großen Chor erlernten wir Stücke aus dem neuen Bläserheft und kramten aus älteren Bläserheften fast vergessene Stücke oder sogenannte Dauerbrenner heraus. Dieses Jahr wurde zum ersten Mal ein Chorleiterlehrgang angeboten, welcher mit insgesamt 7 Bläsern eine gute Gruppengröße ergab, um erste Einblicke in das Dirigieren zu bekommen. Bereits im Winter des Vorjahres kam das neue Bläserheft 2026 heraus – jede Menge neue Lieder, Vortragsstücke, Choralvorspiele und Choralbearbeitungen. Gemeinsam mit Kerstin Dickoff lernten wir eine Vielzahl der Stücke kennen. Wir hoffen, euch bereiten die Stücke genauso viel Freude, wenn wir sie im Gottesdienst oder bei anderen Auftritten zum Besten geben."
   },
   {
-    "title": "Hoffnungsklänge - Sounds of Hope",
+    "title": "Hoffnungsklänge – Sounds of Hope",
     "time": "2026",
     "infoText": "Eine spannende Reise in die Ukraine.",
-    "report": "Es war mehr als eine Reise. Es war ein Aufbruch. Mit Instrumenten und Hilfsgütern im Gepäck machten wir uns auf den Weg in die Ukraine getragen von der Hoffnung, dass Musik Menschen erreichen kann, wo Worte nicht mehr genügen. Was folgte, waren Begegnungen, die uns tief bewegt haben: Im Altenheim wurde aus Stille vorsichtige Freude. Bei Geflüchteten und Veteranen erlebten wir, wie schwer Worte manchmal sind und wie viel ein einfaches Dasein bedeuten kann. In der Roma-Gemeinde begegnete uns trotz großer Armut eine beeindruckende Lebensfreude. Immer wieder entstanden Momente, die bleiben: ein gemeinsames Gebet, ein spontanes Konzert, ein Kind, das singt. Augenblicke, in denen Hoffnung spürbar wurde. Diese Reise hat uns verändert. Sie hat uns gezeigt, dass es nicht immer große Worte braucht sondern offene Herzen, Zeit und manchmal einfach nur einen Ton zur richtigen Zeit. „Hoffnungsklänge“ war nie nur ein Motto. Es wurde Wirklichkeit. In jedem Blick. In jeder Begegnung. In jedem Ton.",
+    "report": "Es war mehr als eine Reise. Es war ein Aufbruch. Mit Instrumenten und Hilfsgütern im Gepäck machten wir uns auf den Weg in die Ukraine, getragen von der Hoffnung, dass Musik Menschen erreichen kann, wo Worte nicht mehr genügen. Was folgte, waren Begegnungen, die uns tief bewegt haben: Im Altenheim wurde aus Stille vorsichtige Freude. Bei Geflüchteten und Veteranen erlebten wir, wie schwer Worte manchmal sind und wie viel ein einfaches Dasein bedeuten kann. In der Roma-Gemeinde begegnete uns trotz großer Armut eine beeindruckende Lebensfreude. Immer wieder entstanden Momente, die bleiben: ein gemeinsames Gebet, ein spontanes Konzert, ein Kind, das singt. Augenblicke, in denen Hoffnung spürbar wurde. Diese Reise hat uns verändert. Sie hat uns gezeigt, dass es nicht immer große Worte braucht, sondern offene Herzen, Zeit und manchmal einfach nur einen Ton zur richtigen Zeit. „Hoffnungsklänge“ war nie nur ein Motto. Es wurde Wirklichkeit – in jedem Blick, in jeder Begegnung, in jedem Ton.",
     "reporterName": "Bericht von Andrea Stigler",
     "organisationLink": "https://www.vep-bayern.de/",
     "images": [
       {
         "src": "images/Hoffnungsklänge1.jpeg",
-        "alt": "Hoffnungsklänge1"
+        "alt": "Reise in die Ukraine Hoffnungsklänge – Bild 1"
       },
       {
         "src": "images/Hoffnungsklänge2.jpeg",
-        "alt": "Hoffnungsklänge 2"
+        "alt": "Reise in die Ukraine Hoffnungsklänge – Bild 2"
       },
       {
         "src": "images/Hoffnungsklänge3.jpeg",
-        "alt": "Hoffnungsklänge2"
+        "alt": "Reise in die Ukraine Hoffnungsklänge – Bild 3"
       }
     ]
   },
   {
     "title": "Bläserlehrgang in Bad Alexandersbad",
-    "time": "4-7. Mai 2026",
-    "infoText": "Mit rund 50 Teilnehmerinnen und Teilnehmern fand in Bad Alexandersbad ein Bläserlehrgang für Fortgeschrittene statt. An mehreren Tagen wurde intensiv in den verschiedenen Stimmgruppen geübt, in kleinen Ensembles musiziert und gemeinsam im großen Plenum gespielt. Dabei konnten wir neue Stücke kennenlernen, bekannte Werke vertiefen und unser Können durch neue Einblasübungen weiterentwickeln. Neben den musikalischen Einheiten boten auch die langen Abende Gelegenheit für Austausch und gemeinsames Beisammensein. Rundum ein gelungener Lehrgang",
+    "time": "04.–07. Mai 2026",
+    "infoText": "Mit rund 50 Teilnehmerinnen und Teilnehmern fand in Bad Alexandersbad ein Bläserlehrgang für Fortgeschrittene statt. An mehreren Tagen wurde intensiv in den verschiedenen Stimmgruppen geübt, in kleinen Ensembles musiziert und gemeinsam im großen Plenum gespielt. Dabei konnten wir neue Stücke kennenlernen, bekannte Werke vertiefen und unser Können durch neue Einblasübungen weiterentwickeln. Neben den musikalischen Einheiten boten auch die langen Abende Gelegenheit für Austausch und gemeinsames Beisammensein. Rundum ein gelungener Lehrgang!",
     "organisationLink": "https://www.vep-bayern.de/",
     "images": [
       {
         "src": "images/Bad Alexanderbad 1.jpg",
-        "alt": "Bad Alexanderbad 1"
+        "alt": "Bläserlehrgang in Bad Alexandersbad – Bild 1"
       },
       {
         "src": "images/Bad Alexanderbad2.jpg",
-        "alt": "Bad Alexanderbad 2"
+        "alt": "Bläserlehrgang in Bad Alexandersbad – Bild 2"
+      }
+    ]
+  },
+  {
+    "title": "Weltrekordversuch – 72 Stunden Dauerblasen",
+    "time": "30. Juli – 02. August 2026",
+    "infoText": "Die einen sagen: „Was für eine verrückte Idee!“ Wir sagen: „Genial!“ Die große bayerische Bläserfamilie kommt zusammen, um gemeinsam einen Weltrekord aufzustellen. 72 Stunden Bläsermusik. 72 Stunden Gemeinschaft. 72 Stunden voller Emotionen, Begegnungen und unvergesslicher Momente. Eine Zeit, die Kräfte kostet – und gleichzeitig so unglaublich viel zurückgibt. Denn wann hat man schon die Gelegenheit, 72 Stunden lang Bläsermusik live zu erleben, mit den unterschiedlichsten Chören mitzufiebern, gemeinsam zu feiern und Gott die Ehre zu erweisen? 72 Stunden, in denen der Alltag in den Hintergrund rückt. 72 Stunden voller Musik, Glauben und Gemeinschaft. 72 Stunden, die zeigen, was möglich ist, wenn eine große Bläserfamilie zusammenkommt. Ein Weltrekordversuch – und so viel mehr als nur ein Rekord.",
+    "organisationLink": "https://www.vep-bayern.de/",
+    "images": [
+      {
+        "src": "images/Weltrekord1.jpg",
+        "alt": "Weltrekordversuch 72 Stunden Dauerblasen – Bild 1"
+      },
+      {
+        "src": "images/Weltrekord2.png",
+        "alt": "Weltrekordversuch 72 Stunden Dauerblasen – Bild 2"
+      },
+      {
+        "src": "images/Weltrekord3.png",
+        "alt": "Weltrekordversuch 72 Stunden Dauerblasen – Bild 3"
       }
     ]
   }
